@@ -9,7 +9,6 @@ gem 'sqlite3'
 gem 'sqlite3-ruby','1.2.5', :require=>'sqlite3'
 gem 'execjs'
 gem 'therubyracer'
-gem 'activerecord-postgresql-adapter'
 
 group :production do
   gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
